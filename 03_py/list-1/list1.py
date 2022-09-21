@@ -2,14 +2,21 @@ def first_last6(nums):
   if nums[0] == 6 or nums[-1] == 6:
     return True
   return False
+# first_last6([1, 2, 6]) → True
+# first_last6([6, 1, 2, 3]) → True
+# first_last6([13, 6, 1, 2, 3]) → False
 
 def same_first_last(nums):
   if len(nums) >= 1 and nums[0] == nums[-1]:
     return True
   return False
+# same_first_last([1, 2, 3]) → False
+# same_first_last([1, 2, 3, 1]) → True
+# same_first_last([1, 2, 1]) → True
 
 def make_pi():
   return [3,1,4]
+# make_pi() → [3, 1, 4]
 
 def common_end(a, b):
   return a[0] == b[0] or a[-1] == b[-1]
