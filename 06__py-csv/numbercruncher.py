@@ -1,7 +1,7 @@
-from itertools import count
-from random import random
-from traceback import print_tb
-import random as random
+#from itertools import count
+import random
+#from traceback import print_tb
+#import random as random
 
 
 def choice():
@@ -28,11 +28,6 @@ def choice():
     values = list(dictionary.values())
     keys = list(dictionary.keys())
     counter = -1
-    #print(values)
-    for i in range(len(values)):
-        values[i] = i
-    values.sort(reverse=True)
-    print(values)
     for x in values:
         if number > 0:
             number = number - float(x)
