@@ -2,7 +2,7 @@
 # SoftDev
 # K19 -- Sessions Greetings
 # 2022-11-03
-# time spent:
+# time spent: 1.5
 
 
 
