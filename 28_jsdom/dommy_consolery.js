@@ -120,3 +120,7 @@ const myFxn = (param1, param2) => {
 };
 //functions the same as the previous syntax
 
+console.log("the 3rd fib number is " + fib(3));
+console.log("the 3! is " + fac(3));
+console.log("the gcd of 3 and 7 is " + gcd(3,7));
+
