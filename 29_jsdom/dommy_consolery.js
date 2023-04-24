@@ -18,8 +18,8 @@
    (delete this block comment once you are done)
 */
 
-// Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon 
-// SoftDev pd0
+// Team JiangPark Morgan: Ian Jiang, Gitae Park
+// SoftDev pd7
 // K28 -- Getting more comfortable with the dev console and the DOM
 // 2023-04-05w
 // --------------------------------------------------
