@@ -22,6 +22,7 @@ var drawRect = function(e) {
     console.log("mouseclick registered at ", mouseX, mouseY);
     ctx.fillStyle = "red";
     ctx.fillRect(mouseX, mouseY, 100, 300)
+    ctx.stroke();
 }
 
 var drawCircle = function(e) {
@@ -32,6 +33,7 @@ var drawCircle = function(e) {
     ctx.beginPath();
     ctx.arc(mouseX, mouseY, 50, 0, 2 * Math.PI);
     ctx.fill();
+    ctx.stroke();
 }
 
 var draw = function(e) {
